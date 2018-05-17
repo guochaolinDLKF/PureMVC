@@ -1,0 +1,2 @@
+E:\xgProject\puremvc-csharp-multicore-framework\PureMVCG\PureMVC\PureMVC\bin\Debug\PureMVC.exe.config
+E:\xgProject\PureMVC\PureMVC\bin\Debug\PureMVC.exe.config
