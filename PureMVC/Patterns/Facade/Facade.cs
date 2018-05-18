@@ -2,7 +2,7 @@
 //  PureMVC C# Multicore
 //
 //  Copyright(c) 2017 Saad Shams <saad.shams@puremvc.org>
-//  Your reuse is governed by the Creative Commons Attribution 3.0 License
+//  您的重用是由知识共享署名3.0许可证管理的。
 //
 
 using System;
@@ -27,9 +27,9 @@ namespace PureMVC.Patterns.Facade
         /// <remarks>
         ///     <para>
         ///         This <c>IFacade</c> implementation is a Multiton, 
-        ///         so you should not call the constructor 
-        ///         directly, but instead call the static Factory method, 
-        ///         passing the unique key for this instance 
+        ///         所以你不应该直接调用构造函数。
+        ///         但改为使用静态工厂方法，
+        ///         传递此实例的唯一密钥 
         ///         <c>Facade.getInstance( multitonKey, () => new Facade(multitonKey) )</c>
         ///     </para>
         /// </remarks>
