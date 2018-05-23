@@ -16,9 +16,6 @@ namespace PureMVC.Patterns.Facade
     /// <summary>
     /// A base Multiton <c>IFacade</c> implementation.
     /// </summary>
-    /// <seealso cref="PureMVC.Core.Model"/>
-    /// <seealso cref="PureMVC.Core.View"/>
-    /// <seealso cref="PureMVC.Core.Controller"/>
     public class Facade: IFacade
     {
         /// <summary>

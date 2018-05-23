@@ -21,7 +21,7 @@ namespace PureMVC.Interfaces
     ///     <para>
     ///         Additionally, <c>IProxy</c>s typically:
     ///         <list type="bullet">
-    ///             <item>Maintain references to one or more pieces of model data.</item>
+    ///             <item>维护对一个或多个模型数据的引用。</item>
     ///             <item>Provide methods for manipulating that data.</item>
     ///             <item>Generate <c>INotifications</c> when their model data changes.</item>
     ///             <item>Expose their name as a <c>public static const</c> called <c>NAME</c>, if they are not instantiated multiple times.</item>
@@ -32,12 +32,12 @@ namespace PureMVC.Interfaces
     public interface IProxy: INotifier
     {
         /// <summary>
-        /// Get the Proxy name
+        /// 代理名称
         /// </summary>
         string ProxyName { get; }
 
         /// <summary>
-        /// Get or Set the data object
+        /// 数据对象
         /// </summary>
         object Data { get; set; }
 

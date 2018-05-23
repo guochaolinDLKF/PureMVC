@@ -33,7 +33,7 @@ namespace PureMVC.Core
     public class Model: IModel
     {
         /// <summary>
-        /// Constructs and initializes a new model
+        /// 构建并初始化新模型
         /// </summary>
         /// <remarks>
         ///     <para>
@@ -59,10 +59,7 @@ namespace PureMVC.Core
         /// </summary>
         /// <remarks>
         ///     <para>
-        ///         Called automatically by the constructor, this 
-        ///         is your opportunity to initialize the Multiton 
-        ///         instance in your subclass without overriding the 
-        ///         constructor
+        ///         由构造函数自动调用，这是您在子类中初始化Multiton实例而不重写构造函数的机会。
         ///     </para>
         /// </remarks>
         protected virtual void InitializeModel()
@@ -147,6 +144,6 @@ namespace PureMVC.Core
         protected static readonly ConcurrentDictionary<string, Lazy<IModel>> instanceMap = new ConcurrentDictionary<string, Lazy<IModel>>();
 
         /// <summary>Message Constants</summary>
-        protected const string MULTITON_MSG = "Model instance for this Multiton key already constructed!";
+        protected const string MULTITON_MSG = "此Multiton键的模型实例已经构建好了！";
     }
 }
