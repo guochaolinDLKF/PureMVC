@@ -35,7 +35,7 @@ namespace PureMVC.Patterns.Facade
         public Facade(string key)
         {
             Lazy<IFacade> facade;
-            if (instanceMap.TryGetValue(key, out facade) && multitonKey != null) throw new Exception(MULTITON_MSG);
+            if (instanceMap.TryGetValue(key, out facade) && multitonKey != null) throw new Exception(MULTITON_MSG); 
             InitializeNotifier(key);
             instanceMap.TryAdd(key, new Lazy<IFacade>(() => this));
             InitializeFacade();

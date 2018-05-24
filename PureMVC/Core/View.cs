@@ -28,9 +28,6 @@ namespace PureMVC.Core
     ///         <item>Notifying the <c>IObservers</c> of a given <c>INotification</c> when it broadcast</item>
     ///     </list>
     /// </remarks>
-    /// <seealso cref="PureMVC.Patterns.Mediator.Mediator"/>
-    /// <seealso cref="PureMVC.Patterns.Observer.Observer"/>
-    /// <seealso cref="PureMVC.Patterns.Observer.Notification"/>
     public class View: IView
     {
         /// <summary>
